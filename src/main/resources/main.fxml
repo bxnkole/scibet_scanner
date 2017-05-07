@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="262.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/8.0.92" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.banks.Main">
+   <children>
+      <DatePicker fx:id="dtPkGameDate" layoutX="34.0" layoutY="27.0" prefHeight="27.0" prefWidth="257.0" promptText="Game Date" />
+      <ComboBox fx:id="cbPredictVendor" layoutX="34.0" layoutY="60.0" prefHeight="27.0" prefWidth="257.0" promptText="Predict Vendor" />
+      <ComboBox fx:id="cbThreshold" editable="true" layoutX="34.0" layoutY="98.0" prefHeight="27.0" prefWidth="257.0" promptText="Threshold" />
+      <Button fx:id="btnStart" layoutX="34.0" layoutY="133.0" mnemonicParsing="false" onAction="#doStartAction" prefHeight="27.0" prefWidth="75.0" text="Start" />
+      <ProgressBar fx:id="progressBar" layoutX="34.0" layoutY="191.0" prefHeight="20.0" prefWidth="257.0" />
+   </children>
+</AnchorPane>
